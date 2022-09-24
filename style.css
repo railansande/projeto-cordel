@@ -28,13 +28,13 @@ header h1 {
     left: 50%;
     translate: -50% -50%;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 8em;
 }
 
 header p {
     text-align: center;
     position: absolute;
-    top: 58%;
+    top: 75%;
     left: 50%;
     translate: -50% -50%;
     font-family: var(--fonte-padrao);
@@ -52,9 +52,37 @@ header a:hover {
 
 section.normal {
     font-family: var(--fonte-padrao);
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: bold;
-    margin: 25px 0px;
-    padding: 100px 20px;
-    line-height: 65px;
+    padding: 90px 20px;
+    line-height: 90px;
+}
+
+section.imagem {
+    font-family: var(--fonte-padrao);
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    padding: 90px 20px;
+    line-height: 90px;
+    background-color: transparent;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#imagem2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+section.imagem p {
+    background-color: #0000004c;
+    max-width: 525px;
+    padding: 15px;
+}
+
+section.ajuste-de-padding {
+    padding-top: 0px;
 }
