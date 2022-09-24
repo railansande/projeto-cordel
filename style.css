@@ -18,6 +18,7 @@ header {
     position: relative;
     background-color: #0a0a0a;
     color: white;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -27,8 +28,8 @@ header h1 {
     top: 40%;
     left: 50%;
     translate: -50% -50%;
-    font-family: var(--fonte-destaque);
-    font-size: 8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vh;
 }
 
 header p {
@@ -52,25 +53,22 @@ header a:hover {
 
 section.normal {
     font-family: var(--fonte-padrao);
-    font-size: 3.5em;
-    font-weight: bold;
-    padding: 90px 20px;
-    line-height: 90px;
+    font-size: 5vw;
+    padding-left: 25px;
+    margin-bottom: 50px;
 }
 
 section.imagem {
     font-family: var(--fonte-padrao);
-    font-size: 3.5em;
-    font-weight: bold;
+    font-size: 5vw;
     color: white;
-    padding: 90px 20px;
-    line-height: 90px;
-    background-color: transparent;
+    margin-bottom: 40px;
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 30px;
 }
 
 section#imagem2 {
@@ -78,11 +76,26 @@ section#imagem2 {
 }
 
 section.imagem p {
-    background-color: #0000004c;
-    max-width: 525px;
-    padding: 15px;
+    background-color: #0000005e;
+    padding: 20px 20px 20px 10px;
+    max-width: 50vw;
+    margin-left: -20px;
+    border-radius: 10px;
 }
 
-section.ajuste-de-padding {
-    padding-top: 0px;
+footer {
+    font-size: 0.9em;
+    background-color: #0a0a0a;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
