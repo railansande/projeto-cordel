@@ -50,6 +50,10 @@ section.normal {
     margin-bottom: 50px;
 }
 
+section p {
+    margin-bottom: 50px;
+}
+
 section.imagem {
     font-family: var(--fonte-padrao);
     font-size: 4vw;
