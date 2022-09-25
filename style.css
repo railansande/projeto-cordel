@@ -46,11 +46,15 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 13vh;
+    padding-bottom: 13vh;
+    line-height: 2em;
+}
+
 section.normal {
     font-family: var(--fonte-padrao);
     font-size: 4vw;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     padding-left: 20px;
     background-color: white;
     color: black;
@@ -59,15 +63,17 @@ section.normal {
 section.imagem {
     font-family: var(--fonte-padrao);
     font-size: 4vw;
+    padding-left: 10px;
     color: white;
-    padding-bottom: 40px;
-    background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 15vh 30px;
     box-shadow: inset 0px 5px 10px #00000052;
+}
+
+section#imagem1 {
+    background-image: url(imagens/background001.jpg);
 }
 
 section#imagem2 {
@@ -76,10 +82,10 @@ section#imagem2 {
 
 section.imagem p {
     background-color: #0000007a;
-    padding: 20px 20px 20px 10px;
-    max-width: 55vw;
-    margin-left: -20px;
+    display: inline-block;
+    padding: 10px;
     border-radius: 15px;
+    text-shadow: 1px 1px 0px black;
 }
 
 p.separado {
