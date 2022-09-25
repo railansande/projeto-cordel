@@ -12,59 +12,61 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100%;
+    background-color: darkgray;
+}
+
 header {
     background-color: black;
     color: white;
     padding: 30px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 header h1 {
     width: 100%;
-    text-align: center;
     font-family: var(--fonte-titulo);
-    font-weight: bold;
+    font-variant: small-caps;
+    font-weight: 300;
     font-size: 10vw;
 }
 
 header p {
-    text-align: center;
-
     font-family: var(--fonte-padrao);
     font-size: 3vw;
 }
 
-header a {
+header a, footer a {
     color: white;
     text-decoration: none;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
 section.normal {
     font-family: var(--fonte-padrao);
     font-size: 4vw;
-    padding-left: 25px;
-    margin-bottom: 50px;
-}
-
-section p {
-    margin-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    background-color: white;
+    color: black;
 }
 
 section.imagem {
     font-family: var(--fonte-padrao);
     font-size: 4vw;
     color: white;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 30px;
+    padding: 15vh 30px;
     box-shadow: inset 0px 5px 10px #00000052;
 }
 
@@ -73,11 +75,15 @@ section#imagem2 {
 }
 
 section.imagem p {
-    background-color: #0000005e;
+    background-color: #0000007a;
     padding: 20px 20px 20px 10px;
     max-width: 55vw;
     margin-left: -20px;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+p.separado {
+    padding-bottom: 10vh;
 }
 
 footer {
@@ -86,13 +92,4 @@ footer {
     color: white;
     padding: 5px;
     text-align: center;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
